@@ -18,9 +18,9 @@
         <CC0 />
       </div>
     <div>
-      <a class="supporters" href="/adoption">
+      <NuxtLink to="/adoption" class="supporters">
         Adoption
-      </a>
+      </NuxtLink>
     </div>
   </div>
   <footer>

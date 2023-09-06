@@ -3,9 +3,9 @@
     <a href="BitsSymbolGraphicKit.zip" class="button-left">
       Graphics Kit
     </a>
-    <a href="/font" class="button-right">
+    <NuxtLink to="/font" class="button-right">
       Font Kit
-    </a>
+    </NuxtLink>
   </div>
 </template>
 
