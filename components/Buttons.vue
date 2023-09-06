@@ -1,6 +1,6 @@
 <template>
   <div class="buttons">
-    <a href="BitsSymbolGraphicKit.zip" class="button-left">
+    <a href="BitsSymbolGraphicsKit.zip" class="button-left">
       Graphics Kit
     </a>
     <NuxtLink to="/font" class="button-right">
