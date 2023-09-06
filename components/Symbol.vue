@@ -1,6 +1,6 @@
 <template>
   <div>
-    <img src="/assets/BitsSymbolCoin.svg" alt="Bits Symbol" class="image">
+    <img src="@/assets/BitsSymbolCoin.svg" alt="Bits Symbol" class="image">
   </div>
 </template>
 
