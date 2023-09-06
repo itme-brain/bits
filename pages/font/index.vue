@@ -16,7 +16,7 @@
           <span class="icon-Bits-Symbol"></span>
         </div>
         <div class="code">
-          &lt;i class="icon-Bits-Symbol"&gt;&lt;/i&gt;
+          &lt;i class="Bits-Symbol"&gt;&lt;/i&gt;
         </div>
       </div>
       <div class="glyph fs1">
@@ -24,7 +24,7 @@
           <span class="icon-Bits-Symbol_slanted"></span>
         </div>
         <div class="code">
-          &lt;i class="icon-Bits-Symbol_slanted"&gt;&lt;/i&gt;
+          &lt;i class="Bits-Symbol_slanted"&gt;&lt;/i&gt;
         </div>
       </div>
       <div class="glyph fs1">
@@ -32,7 +32,7 @@
           <span class="icon-Bits-Symbol_noLine"></span>
         </div>
         <div class="code">
-          &lt;i class="icon-Bits-Symbol_noLine"&gt;&lt;/i&gt;
+          &lt;i class="Bits-Symbol_noLine"&gt;&lt;/i&gt;
         </div>
       </div>
       <div class="glyph fs1">
@@ -40,7 +40,7 @@
           <span class="icon-Bits-Symbol_slanted_noLine"></span>
         </div>
         <div class="code">
-          &lt;i class="icon-Bits-Symbol_slanted_noLine"&gt;&lt;/i&gt;
+          &lt;i class="Bits-Symbol_slanted_noLine"&gt;&lt;/i&gt;
         </div>
       </div>
       <div class="glyph fs1">
@@ -51,7 +51,7 @@
           <span class="path5"></span><span class="path6"></span>
           <span class="path7"></span></span>
         <div class="code">
-          &lt;i class="icon-Bits-Symbol-coin"&gt;&lt;/i&gt;
+          &lt;i class="Bits-Symbol-coin"&gt;&lt;/i&gt;
         </div>
         </div>
       </div>
@@ -64,7 +64,7 @@
           <span class="path7"></span></span>
         </div>
         <div class="code">
-          &lt;i class="icon-Bits-Symbol-coin_slanted"&gt;&lt;/i&gt;
+          &lt;i class="Bits-Symbol-coin_slanted"&gt;&lt;/i&gt;
         </div>
       </div>
       <div class="glyph fs1">
@@ -76,7 +76,7 @@
             <span class="path7"></span></span>
         </div>
         <div class="code">
-          &lt;i class="icon-Bits-Symbol-coin_noLine"&gt;&lt;/i&gt;
+          &lt;i class="Bits-Symbol-coin_noLine"&gt;&lt;/i&gt;
         </div>
       </div>
       <div class="glyph fs1">
@@ -87,7 +87,7 @@
           <span class="path5"></span><span class="path6"></span>
           <span class="path7"></span></span>
         <div class="code">
-          &lt;i class="icon-Bits-Symbol-coin_slanted_noLine"&gt;&lt;/i&gt;
+          &lt;i class="Bits-Symbol-coin_slanted_noLine"&gt;&lt;/i&gt;
         </div>
         </div>
       </div>
