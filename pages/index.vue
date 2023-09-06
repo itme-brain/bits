@@ -17,11 +17,11 @@
       <div class="license">
         <CC0 />
       </div>
-    <!-- <div>
+    <div>
       <a class="supporters" href="/adoption">
         Adoption
       </a>
-    </div> -->
+    </div>
   </div>
   <footer>
     <div class="info">
