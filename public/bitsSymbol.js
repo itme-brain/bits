@@ -26,21 +26,21 @@
           <span class="path7"></span></span>`,
 
       'i.Bits-Symbol-coin_slanted':
-        `<span class="icon-Bits-Symbol-coin">
+        `<span class="icon-Bits-Symbol-coin_slanted">
           <span class="path1"></span><span class="path2"></span>
           <span class="path3"></span><span class="path4"></span>
           <span class="path5"></span><span class="path6"></span>
           <span class="path7"></span></span>`,
 
       'i.Bits-Symbol-coin_noLine':
-        `<span class="icon-Bits-Symbol-coin">
+        `<span class="icon-Bits-Symbol-coin_noLine">
           <span class="path1"></span><span class="path2"></span>
           <span class="path3"></span><span class="path4"></span>
           <span class="path5"></span><span class="path6"></span>
           <span class="path7"></span></span>`,
 
       'i.Bits-Symbol-coin_slanted_noLine':
-        `<span class="icon-Bits-Symbol-coin">
+        `<span class="icon-Bits-Symbol-coin_slanted_noLine">
           <span class="path1"></span><span class="path2"></span>
           <span class="path3"></span><span class="path4"></span>
           <span class="path5"></span><span class="path6"></span>
