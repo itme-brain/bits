@@ -10,7 +10,7 @@
         <td>
           <div class="logo-container">
             <a :href="entry.link">
-              <img :src="entry.logo" alt="Company Logo" class="logo"/>
+              <img :src="entry.logo" alt="Logo" class="logo"/>
             </a>
           </div>
         </td>
@@ -43,10 +43,6 @@ interface TableEntry {
 
 export default defineComponent({
   setup () {
-    const logoPath = (entry: TableEntry) => {
-      return `../assets/logos/${entry.project.toLowerCase()}.${entry.logoExtension}`
-    }
-
     const tableData = ref<TableEntry[]>([
       {
         project: 'Bitcoin_Core',
@@ -73,6 +69,10 @@ export default defineComponent({
 
       // ... more entries
     ]);
+
+    const logoPath = (entry: TableEntry) => {
+      return `/logos/${entry.project.toLowerCase()}.${entry.logoExtension}`
+    }
 
     tableData.value.forEach((entry) => {
       entry.logo = logoPath(entry);
