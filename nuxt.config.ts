@@ -10,6 +10,7 @@ export default defineNuxtConfig({
   ],
   app: {
     head: {
+      title: 'Bits',
       link: [{ rel: 'icon', type: 'image/svg+xml', href: 'favicon.svg' }]
     }
   }
