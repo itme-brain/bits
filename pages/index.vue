@@ -17,11 +17,11 @@
       <div class="license">
         <CC0 />
       </div>
-    <div>
+    <!-- <div>
       <a class="supporters" href="/adoption">
         Adoption
       </a>
-    </div>
+    </div> -->
   </div>
   <footer>
     <div class="info">
@@ -51,7 +51,7 @@ export default defineComponent({
       satsSymbol.src = 'https://kit.fontawesome.com/090ca49637.js';
       satsSymbol.crossOrigin = 'anonymous';
 
-      bitsSymbol.src = "bitsSymbol.js";
+      bitsSymbol.src = "/bitsSymbol.js";
 
       document.body.appendChild(satsSymbol);
       document.body.appendChild(bitsSymbol);
