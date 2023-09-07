@@ -25,15 +25,10 @@
   </div>
   <footer>
     <div class="info">
-      Have any suggestions?<br>
+      Questions or Suggestions?<br>
       Please reach out 🙂 <br>
       <a href="mailto:hi@bits.name" class="email">
         hi@bits.name
-      </a>
-    </div>
-    <div class="socials flex justify-center space-x-3 mt-0">
-      <a href="https://github.com/itme-brain/bits">
-        <img src="@/assets/github.jpg" class="w-8 h-8 rounded-full">
       </a>
     </div>
   </footer>
