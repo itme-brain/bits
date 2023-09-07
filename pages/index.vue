@@ -46,12 +46,17 @@ export default defineComponent({
   setup() {
     onMounted(() => {
       const satsSymbol = document.createElement('script');
+      const bitsSymbol = document.createElement('script');
 
       satsSymbol.src = 'https://kit.fontawesome.com/090ca49637.js';
       satsSymbol.crossOrigin = 'anonymous';
       satsSymbol.defer = true;
 
+      bitsSymbol.src = '/bitsSymbol.js';
+      bitsSymbol.defer = true;
+
       document.head.appendChild(satsSymbol);
+      document.head.appendChild(bitsSymbol);
     });
   },
 });
