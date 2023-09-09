@@ -10,7 +10,10 @@
         <td>
           <div class="logo-container">
             <a :href="entry.link">
-              <img :src="entry.logo" alt="Logo" class="logo"/>
+              <img v-if="entry.logo" :src="entry.logo" alt="Logo" class="logo"/>
+              <span v-else class="project">
+                {{ entry.project }}
+              </span>
             </a>
           </div>
         </td>
@@ -34,7 +37,7 @@ import { defineComponent, ref } from 'vue'
 interface TableEntry {
   project: string;
   logo?: string;
-  logoExtension: string;
+  logoExtension?: string;
   link: string;
   bitName: boolean;
   differentName?: boolean;
@@ -66,6 +69,12 @@ export default defineComponent({
         bitName: true,
         bitSymbol: false
       },
+      {
+        project: 'SatStats',
+        link: 'https://satstats.net',
+        bitName: true,
+        bitSymbol: true
+      }
 
       // ... more entries
     ]);
@@ -75,7 +84,9 @@ export default defineComponent({
     }
 
     tableData.value.forEach((entry) => {
-      entry.logo = logoPath(entry);
+      if (entry.logoExtension) {
+        entry.logo = logoPath(entry);
+      }
     });
 
     return { tableData }
@@ -98,5 +109,10 @@ export default defineComponent({
 
   .logo {
     @apply w-12 h-12 rounded-full object-cover cursor-pointer hover:scale-110 transition duration-300 ease-in-out
+  }
+
+  .project {
+    @apply inline-block cursor-pointer transition duration-300 ease-in-out text-blue-900
+           hover:scale-110;
   }
 </style>
