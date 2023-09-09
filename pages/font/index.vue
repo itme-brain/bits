@@ -7,7 +7,9 @@
       👇️Add this tag to your document👇️<br>
       <code class="tag">
         &lt;script src="https://bits.name/bitsSymbol.js"&gt;&lt;/script&gt;
-      </code>
+      </code><br>
+      <FontButton />
+      Or download the zip and <code><em>src</em></code> the files locally
     </div>
   </div>
     <div class="icons">
