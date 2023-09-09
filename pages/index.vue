@@ -4,10 +4,13 @@
       <Symbol />
     </div>
   </div>
+  <div class="satsConversion">
+    1 <i class="icon-Bits-Symbol"></i> = 100<i class="fak fa-regular"></i>
+  </div>
+  <!--<div class="bitcoinConversion">
+    1 ₿ = 1,000,000 <i class="icon-Bits-Symbol"></i>
+  </div> -->
   <div class="body">
-    <div class="conversion">
-      1 <i class="icon-Bits-Symbol"></i> = 100<i class="fak fa-regular"></i>
-    </div>
     <div class="kits">
       👇️ Free and Open Source 👇️
     </div>
@@ -68,15 +71,28 @@ export default defineComponent({
     @apply flex justify-center mt-10 mb-10;
   }
 
-  .body {
+  .satsConversion {
+    @apply text-center text-3xl font-bold mt-0 select-none;
     opacity: 0;
     animation: fadeIn ease 5s;
     animation-delay: 5s;
     animation-fill-mode: forwards
   }
 
-  .conversion {
-    @apply text-center text-3xl font-bold mt-0 select-none
+ /* .bitcoinConversion {
+    @apply text-center text-3xl font-bold mt-0 mb-0 select-none;
+    opacity: 0;
+    animation: fadeIn ease 5s;
+    animation-delay: 8s;
+    animation-fill-mode: forwards
+  } */
+
+  .body {
+    @apply mt-0;
+    opacity: 0;
+    animation: fadeIn ease 5s;
+    animation-delay: 10s;
+    animation-fill-mode: forwards
   }
 
   .kits {
@@ -92,8 +108,8 @@ export default defineComponent({
     @apply justify-center items-center mt-10;
     overflow-y: hidden;
     opacity: 0;
-    animation: slideUp 3s ease, fadeIn 3s ease forwards;
-    animation-delay: 8s;
+    animation: slideUp 5s ease, fadeIn 3s ease forwards;
+    animation-delay: 15s;
     animation-fill-mode: forwards;
   }
   
