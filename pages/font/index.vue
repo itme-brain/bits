@@ -1,15 +1,14 @@
 <template>
   <div>
     <header class="head">
-      Use the Bits Symbol as a font in your project
+      Use the Bits Symbol font in your project
     </header>
     <div class="text">
-      👇️Add this tag to your document👇️<br>
+      👇️Add this <code>script</code> tag to your document👇️<br>
       <code class="tag">
         &lt;script src="https://bits.name/bitsSymbol.js"&gt;&lt;/script&gt;
       </code><br>
-      <FontButton />
-      Or download the zip and <code><em>src</em></code> the files locally
+      Or <a href="/FontKit.zip" class="download">download the zip</a> and <code><em>src</em></code> the files locally
     </div>
   </div>
     <div class="icons">
@@ -126,5 +125,13 @@ onMounted(() => {
 
 .code {
   @apply text-sm mb-10
+}
+
+.download {
+  @apply text-blue-900 mb-0;
+}
+
+.download:hover {
+  @apply underline cursor-pointer
 }
 </style>
